@@ -1,0 +1,19 @@
+<!-- Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario0 -->
+
+id                    MEDIUMINT         PRIMARY_KEY            AUTO_INCREMENT           NOT_NULL
+marca                 VARCHAR(20)       NOT_NULL
+modello               VARCHAR(20)       NOT_NULL
+cholimetraggio        MEDIUMINT         NOT_NULL
+tipo di cambio        VARCHAR(20)       NOT_NULL
+anno                  DATE              NOT_NULL
+carburante            VARCHAR(20)       NOT_NULL
+potenza               SMALLINT          NULL
+venditore             VARCHAR(15)       NOT_NULL
+disponibilità         BOOLEAN           NULL
+colore                VARCHAR(30)       NULL
+descrizione interni   VARCHAR(100)      NULL
+porte                 TINYINT           NOT_NULL
+per neopatentati      BOOLEAN           NULL
+trazione              VARCHAR(20)       NULL
+cilindrata            MEDIUMINT         NULL
+marce                 TINYINT           NULL
